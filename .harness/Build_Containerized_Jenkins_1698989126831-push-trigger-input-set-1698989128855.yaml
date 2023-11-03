@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_Containerized_Jenkins_1698989126831-push-trigger-input-set
+  identifier: Build_Containerized_Jenkins_1698989126831pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: dockerfile
+  pipeline:
+    identifier: Build_Containerized_Jenkins_1698989126831
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>

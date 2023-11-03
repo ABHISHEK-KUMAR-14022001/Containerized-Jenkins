@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_Containerized_Jenkins_1698989126831-pr-trigger-input-set
+  identifier: Build_Containerized_Jenkins_1698989126831prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: dockerfile
+  pipeline:
+    identifier: Build_Containerized_Jenkins_1698989126831
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>

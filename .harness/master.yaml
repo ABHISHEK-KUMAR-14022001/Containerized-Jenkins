@@ -1,0 +1,15 @@
+inputSet:
+  name: master
+  identifier: master
+  orgIdentifier: default
+  projectIdentifier: dockerfile
+  pipeline:
+    identifier: Build_Containerized_Jenkins_1698989126831
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: master
+  object Object: pipeline.properties.ci.codebase
